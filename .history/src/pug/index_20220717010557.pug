@@ -1,5 +1,5 @@
 extends layouts/LayoutTheme
-include ./mixins/homes/Studio.pug
+include ./mixins/homes/Showcase.pug
 
 prepend styles
   link(href=`${CWD}vendors/swiper/swiper-bundle.min.css`, rel='stylesheet')
@@ -20,4 +20,4 @@ append variables
     };
 
 append mainContent
-  +Studio
+  +Showcase
