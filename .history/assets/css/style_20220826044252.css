@@ -1375,14 +1375,13 @@ section {
   padding: 8px 28px;
   border-radius: 4px;
   transition: 0.5s;
-  border: 2px solid black;
-  color: black;
-  background-color: white;
+  border: 2px solid #fff;
+  color: #fff;
 }
 
 .contact .php-email-form button[type=submit]:hover {
+  border-color: white;
   background: #b58abb;
-  border-color: black;
 }
 @-webkit-keyframes animate-loading {
   0% {
